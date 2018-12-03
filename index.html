@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Indicadores económicos</title>
+</head>
+<body>
+    <div class="continer">
+        <h1 class="title">Calculadora de pesos a divisas</h1>
+<div class="row calculadora">
+    
+        <div class="col-md-6 pm">
+                <div class="primer-conversor">
+                    <p id="conversor">Convierte pesos a diferentes divisas</p>
+                    <form class="primer-conversor">
+                  <input type="text" id="moneda">
+                  <input type="submit" class="btn btn-info" value="Convertir">
+                </form>
+                <br>
+                    <table  id="pesos" class="table table-bordered">
+                        <tr>
+                            <td>UF</td>
+                            <td ><span id="xuf"></span></td>
+                        </tr>
+                        <tr>
+                            <td>UTM</td>
+                            <td id="xutm"></td>
+                        </tr>
+                        <tr>
+                                <td>Dolar</td>
+                                <td ><span id="xdolar"></span></td>
+                        </tr>
+                        <tr>
+                                <td>Euro</td>
+                                <td ><span id="xeuro"></span></td>
+                        </tr>
+                        
+                    </table>
+                </div>
+        </div>
+    
+        <div class="col-md-6">
+                <table class="table table-bordered">
+                        <h3>Indicadores económicos de hoy</h3>
+                        <tr>
+                            <td>UF</td>
+                            <td id="UF"></td>
+                        </tr>
+                        <tr>
+                            <td>UTM</td>
+                            <td id="UTM"></td>
+                        </tr>
+                        <tr>
+                            <td>Dólar</td>
+                            <td id="dolar"></td>
+                        </tr>
+                        <tr>
+                            <td>Euro</td>
+                            <td id="euro"></td>
+                        </tr>
+                    </table>
+        </div>
+</div>
+</div>
+    
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>     
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

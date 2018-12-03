@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+.title {
+    text-align: center;
+    background-color: lightpink;
+    color: white;
+    padding: 30px;
+    margin-top: -20px;
+}
+.pm{
+    background-color: rgb(245, 241, 241);
+    margin-top: -10px;
+}
+.primer-conversor {
+    margin: 20px;
+    text-align: center;
+}
+#conversor {
+    font-size: 2em;
+}
